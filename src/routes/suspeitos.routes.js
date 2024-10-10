@@ -182,7 +182,7 @@ const novoSuspeito = {
       envolvimento_atividade_suspeitas,
     }
 
- // Adiciona o novo planeta ao array de planetas
+ // Adiciona o novo suspeito ao array de suspeitos
  suspeitos.push(novoSuspeito);
 
 return res.status(201).json({
