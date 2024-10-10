@@ -63,20 +63,6 @@ suspeitosRoutes.get("/:id", (req, res) => {
     return res.status(200).json(suspeito);
   });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   // Rota para atualizar um suspeito pelo id
 suspeitosRoutes.put("/:id", (req, res) => {
     const { id } = req.params;
